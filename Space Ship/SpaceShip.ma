@@ -1,6 +1,6 @@
 //Maya ASCII 2025 scene
 //Name: SpaceShip.ma
-//Last modified: Tue, Jul 09, 2024 03:31:11 PM
+//Last modified: Tue, Jul 09, 2024 03:32:00 PM
 //Codeset: 1252
 requires maya "2025";
 requires -nodeType "polyBoolean" "polyBoolean" "1.1";
@@ -12,19 +12,19 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202402161156-0caf8d1269";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "AD0C5B89-4FE1-17BA-FFCD-51A663152000";
+fileInfo "UUID" "C96D4261-4658-887A-A8EC-E299D0988E1C";
 createNode transform -s -n "persp";
 	rename -uid "196869CA-4F95-552C-5E28-7B82E503999F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -6.3812717607896374 1.1512363673648687 -0.53779626623615573 ;
-	setAttr ".r" -type "double3" -397.53610760160149 619.5995618527196 -0.0022293841515006797 ;
+	setAttr ".t" -type "double3" 6.142347465339415 3.4925523521597577 6.7061881859736436 ;
+	setAttr ".r" -type "double3" -398.73816020803042 739.19956185990611 0.00042616718379062543 ;
 	setAttr ".rp" -type "double3" -8.8817841970012523e-16 0 0 ;
 	setAttr ".rpt" -type "double3" 2.0979127001418088e-16 6.1629758220391547e-33 -5.7328158906595973e-16 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "AA24AC6F-47E0-D92C-D69E-9CB09A826273";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 10.546295503375283;
-	setAttr ".coi" 5.3674502796678718;
+	setAttr ".coi" 8.7581295921352673;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -7350,7 +7350,7 @@ createNode polyBevel3 -n "polyBevel11";
 	setAttr ".mvt" 0.0001;
 	setAttr ".sa" 30;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "3C5F47CC-4DCE-A1C5-59BF-65A77552818F";
+	rename -uid "2E413160-4AB3-AF98-C07C-9A88830B6909";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
