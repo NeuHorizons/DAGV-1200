@@ -1,6 +1,6 @@
 //Maya ASCII 2025 scene
 //Name: SpaceShip.ma
-//Last modified: Tue, Jul 09, 2024 03:32:00 PM
+//Last modified: Tue, Jul 09, 2024 03:40:26 PM
 //Codeset: 1252
 requires maya "2025";
 requires -nodeType "polyBoolean" "polyBoolean" "1.1";
@@ -12,11 +12,11 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202402161156-0caf8d1269";
 fileInfo "osv" "Windows 10 Home v2009 (Build: 19045)";
-fileInfo "UUID" "C96D4261-4658-887A-A8EC-E299D0988E1C";
+fileInfo "UUID" "752808DB-4DAC-A277-9C06-36965DA70A8D";
 createNode transform -s -n "persp";
 	rename -uid "196869CA-4F95-552C-5E28-7B82E503999F";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 6.142347465339415 3.4925523521597577 6.7061881859736436 ;
+	setAttr ".t" -type "double3" 2.7942274079013814 3.9206961905926287 7.5083699188401276 ;
 	setAttr ".r" -type "double3" -398.73816020803042 739.19956185990611 0.00042616718379062543 ;
 	setAttr ".rp" -type "double3" -8.8817841970012523e-16 0 0 ;
 	setAttr ".rpt" -type "double3" 2.0979127001418088e-16 6.1629758220391547e-33 -5.7328158906595973e-16 ;
@@ -7350,7 +7350,7 @@ createNode polyBevel3 -n "polyBevel11";
 	setAttr ".mvt" 0.0001;
 	setAttr ".sa" 30;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "2E413160-4AB3-AF98-C07C-9A88830B6909";
+	rename -uid "C72C68EC-469B-CD1D-AFFC-948A344D0976";
 	setAttr ".sst" -type "string" "";
 select -ne :time1;
 	setAttr ".o" 1;
